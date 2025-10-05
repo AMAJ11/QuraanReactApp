@@ -21,7 +21,7 @@ function App() {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const response = await axios.get(`http://api.alquran.cloud/v1/page/${pageNumber}/quran-uthmani`);
+                const response = await axios.get(`https://api.alquran.cloud/v1/page/${pageNumber}/quran-uthmani`);
                 setQuranText(response.data.data);
                 setSurahName(response.data.data.ayahs[0].surah.name);
                 console.log(quranText);

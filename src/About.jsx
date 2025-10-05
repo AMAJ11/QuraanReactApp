@@ -37,7 +37,7 @@ export default function About() {
 
       <div style={{ marginTop: '30px', textAlign: 'center' }}>
         <h2 style={{ fontSize: '24px', marginBottom: '10px', color: '#2c7a7b' }}>تواصل معنا</h2>
-        <p className="">البريد الإلكتروني: <a style={{ textDecoration: "underline" }} href="mailto:info@example.com">apo.zouher@gmail.com</a></p>
+        <p className="">البريد الإلكتروني: <a style={{ textDecoration: "underline" }} href="mailto:apo.zouher@gmail.com">apo.zouher@gmail.com</a></p>
       </div>
     </div>
   );
